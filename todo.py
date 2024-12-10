@@ -52,13 +52,12 @@ class TaskNote():
 
     def remove_task(self):
         task_id = input('Enter task id: ')
-        # with open(self.file_name, 'r') as file:
-        #     data = json.load(file)
+
+
         if task_id in self.data:
             del self.data[task_id]
             self.save_task()
 
-        # self.save_task(data)
 
 
     def edit_task(self):
