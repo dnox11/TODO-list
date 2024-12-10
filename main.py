@@ -3,20 +3,20 @@ from todo import TaskNote
 
 task_note = TaskNote()
 
-class ListAPI:
 
-    def __init__(self):
+class ListInit:
+
+    def __init__(self) -> None:
         self.output()
 
-
-    def output(self):
+    def output(self) -> None:
         while True:
             print('\nMenu:')
             print('1. Add task')
             print('2. Show tasks')
             print('3. Edit tasks')
             print('4. Remove task')
-            print('5. End task')
+            print('5. Mark task')
             print('6. Exit')
 
             self.choose = int(input('Select action: '))
@@ -30,7 +30,7 @@ class ListAPI:
             elif self.choose == 4:
                 task_note.remove_task()
             elif self.choose == 5:
-                task_note.end_task()
+                task_note.mark_task()
             elif self.choose == 6:
                 break
             else:
@@ -38,7 +38,7 @@ class ListAPI:
 
 
 if __name__ == '__main__':
-    ListAPI()
+    ListInit()
 
 
 
