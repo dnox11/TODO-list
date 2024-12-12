@@ -21,7 +21,7 @@ https://roadmap.sh/projects/task-tracker
 
 
 ## Usage
-1.   ```bash
+  ```bash
     python main.py
 2. Follow the on-screen instructions to manage your tasks.
 
