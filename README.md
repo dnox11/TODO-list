@@ -10,6 +10,9 @@ TODO List is a simple and convenient tool for managing tasks, built with Python.
 - Display all current tasks.
 - Lightweight and intuitive command-line interface.
 
+## Project URL
+https://roadmap.sh/projects/task-tracker
+
 ## Installation
 
 1. Clone the repository:
@@ -17,7 +20,7 @@ TODO List is a simple and convenient tool for managing tasks, built with Python.
    git clone https://github.com/dnox11/TODO-list.git
 
 
-# Usage
+## Usage
 1.   ```bash
     python main.py
 2. Follow the on-screen instructions to manage your tasks.
@@ -25,3 +28,4 @@ TODO List is a simple and convenient tool for managing tasks, built with Python.
 
 # Contributing
 Contributions are welcome! If you'd like to contribute, please fork the repository, make your changes, and submit a pull request.
+
