@@ -18,11 +18,10 @@ https://roadmap.sh/projects/task-tracker
 1. Clone the repository:
    ```bash
    git clone https://github.com/dnox11/TODO-list.git
-
-
+   
 ## Usage
-  ```bash
     python main.py
+
 2. Follow the on-screen instructions to manage your tasks.
 
 
